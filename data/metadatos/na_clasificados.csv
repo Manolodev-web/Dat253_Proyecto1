@@ -1,0 +1,279 @@
+variable,bloque,n_na,n_respondidos,n_universo,na_estructural,na_real,n_excepciones,regla,niveles,pct_na_explicado,tipo_estadistico,pct_real_en_universo,estrategia_sugerida
+folio,Vivienda,0,39497,39497,0,0,0,todos,0,NA,identificador,0,ninguna (sin NA reales)
+area,Vivienda,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+depto,Vivienda,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+nro,Vivienda,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_02,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s01a_03,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_04a,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_04b,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s01a_04c,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_05,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_05a,Sociodemografico,7982,31515,31515,7982,0,0,"edad en [12,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s01a_05b,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s01a_05c,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_06,Sociodemografico,30897,8600,16397,23086,7811,14,"s03a_02a en {20 valores} Y s02b_06 en {NA} Y s03a_06a en {13,62,71,75,78,NA}",3,74.7,discreto,47.6,revisar: posible salto no detectado o MNAR
+s01a_07_1,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s01a_07_2,Sociodemografico,28852,10645,36716,2732,26120,49,s02d_16 en {NA},1,9.5,discreto,71.1,revisar: posible salto no detectado o MNAR
+s01a_07_3,Sociodemografico,38954,543,1,38954,0,542,s05a_01c en {1934},1,100,discreto,0,ninguna (sin NA reales)
+s01a_08,Sociodemografico,1470,38027,38027,1470,0,0,s01a_07_1 en {14 valores},1,100,discreto,0,ninguna (sin NA reales)
+s01a_09,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s01a_09npioc,Sociodemografico,30397,9100,9100,30397,0,0,s01a_09 en {1},1,100,discreto,0,ninguna (sin NA reales)
+s01a_10,Sociodemografico,7982,31515,31515,7982,0,0,"edad en [12,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s01b_11a,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s01b_11b,Sociodemografico,37899,1598,1598,37899,0,0,s01b_11a en {2},1,100,texto libre,0,ninguna (sin NA reales)
+s01b_11c,Sociodemografico,37899,1598,1598,37899,0,0,s01b_11a en {2},1,100,texto libre,0,ninguna (sin NA reales)
+s01b_11d,Sociodemografico,37899,1598,1598,37899,0,0,s01b_11a en {2},1,100,texto libre,0,ninguna (sin NA reales)
+s01b_11e,Sociodemografico,39347,150,2,39346,1,149,s02a_01a en {4},1,100,texto libre,50,revisar: posible salto no detectado o MNAR
+s01b_12,Sociodemografico,37749,1748,1748,37749,0,0,"s01b_11a en {2,3}",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s01b_12e,Sociodemografico,39479,18,7,39473,6,17,s01a_07_2 en {41},1,100,texto libre,85.7,revisar: posible salto no detectado o MNAR
+s01b_13a,Sociodemografico,37749,1748,1748,37749,0,0,"s01b_11a en {2,3}",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s01b_13b,Sociodemografico,37749,1748,1748,37749,0,0,"s01b_11a en {2,3}",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s02a_01a,Salud,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s02a_01b,Salud,39423,74,3,39421,2,73,s04a_07 en {1},1,100,categorico/ordinal,66.7,revisar: posible salto no detectado o MNAR
+s02a_01e,Salud,39495,2,2,39495,0,0,s02a_01a en {4},1,100,texto libre,0,ninguna (sin NA reales)
+s02a_02a,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02b,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02c,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02d,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02e,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02f,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02g,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02h,Salud,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+s02a_02he,Salud,39491,6,2,39490,1,5,s02a_01a en {4},1,100,texto libre,50,revisar: posible salto no detectado o MNAR
+s02a_03a,Salud,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s02a_03b,Salud,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s02a_03c,Salud,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s02a_03d,Salud,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s02a_03e,Salud,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s02a_04a,Salud,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s02a_04b,Salud,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s02a_04c,Salud,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s02a_04d,Salud,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s02a_05,Salud,35433,4064,31507,7838,27595,152,s01a_05a en {10 valores},1,22.1,categorico/ordinal,87.6,revisar: posible salto no detectado o MNAR
+s02b_06,Salud,28169,11328,11328,28169,0,0,"sexo en {2} Y edad en [13,50]",2,100,categorico/ordinal,0,ninguna (sin NA reales)
+s02b_06b,Salud,33041,6456,6456,33041,0,0,"s02b_06 en {1,2}",1,100,discreto,0,ninguna (sin NA reales)
+s02b_07,Salud,33041,6456,6456,33041,0,0,"s02b_06 en {1,2}",1,100,discreto,0,ninguna (sin NA reales)
+s02b_08,Salud,33158,6339,6456,33041,117,0,"s02b_06 en {1,2}",1,99.6,discreto,1.8,imputar mediana / regresión
+s02b_09a,Salud,33158,6339,6456,33041,117,0,"s02b_06 en {1,2}",1,99.6,categorico/ordinal,1.8,imputar moda / hot-deck
+s02b_09b,Salud,33158,6339,6456,33041,117,0,"s02b_06 en {1,2}",1,99.6,discreto,1.8,imputar mediana / regresión
+s02b_10,Salud,36786,2711,6337,33160,3626,0,s02b_07 en {12 valores},1,90.1,categorico/ordinal,57.2,revisar: posible salto no detectado o MNAR
+s02b_10e,Salud,39495,2,2,39495,0,0,s02b_10 en {8},1,100,texto libre,0,ninguna (sin NA reales)
+s02b_11,Salud,33041,6456,6456,33041,0,0,"s02b_06 en {1,2}",1,100,binario,0,ninguna (sin NA reales)
+s02b_12a1,Salud,36420,3077,3077,36420,0,0,s02b_11 en {1},1,100,binario,0,ninguna (sin NA reales)
+s02b_12a2,Salud,39090,407,7,39085,5,405,"educ_prev en {3,4}",1,100,categorico/ordinal,71.4,revisar: posible salto no detectado o MNAR
+s02b_12b,Salud,36420,3077,3077,36420,0,0,s02b_11 en {1},1,100,binario,0,ninguna (sin NA reales)
+s02b_13,Salud,36420,3077,3077,36420,0,0,s02b_11 en {1},1,100,binario,0,ninguna (sin NA reales)
+s02b_14,Salud,37420,2077,2077,37420,0,0,s02b_13 en {1},1,100,binario,0,ninguna (sin NA reales)
+s02b_14a,Salud,39115,382,7,39110,5,380,"educ_prev en {3,4}",1,100,categorico/ordinal,71.4,revisar: posible salto no detectado o MNAR
+s02c_15,Salud,36063,3434,3434,36063,0,0,"edad en [0,5]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s02d_16,Salud,36716,2781,2780,36716,0,1,s01b_11a en {4},1,100,binario,0,ninguna (sin NA reales)
+s02d_17,Salud,37763,1734,1734,37763,0,0,s02d_16 en {1},1,100,binario,0,ninguna (sin NA reales)
+s02d_17a,Salud,38812,685,45,38768,44,684,s05b_05cb en {3},1,99.9,categorico/ordinal,97.8,revisar: posible salto no detectado o MNAR
+s03a_01,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,binario,0,ninguna (sin NA reales)
+s03a_01a,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,binario,0,ninguna (sin NA reales)
+s03a_02a,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,discreto,0,ninguna (sin NA reales)
+s03a_02c,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03a_03a,Educacion,37200,2297,2297,37200,0,0,"s03a_02a en {71,72,77,78}",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03a_03c,Educacion,37200,2297,2297,37200,0,0,"s03a_02a en {71,72,77,78}",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03a_04,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,binario,0,ninguna (sin NA reales)
+s03a_05,Educacion,15980,23517,23517,15980,0,0,s03a_04 en {2},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03a_05e,Educacion,39167,330,1,39167,0,329,s05a_02c en {6000},1,100,texto libre,0,ninguna (sin NA reales)
+s03a_06a,Educacion,25660,13837,13837,25660,0,0,s03a_04 en {1},1,100,discreto,0,ninguna (sin NA reales)
+s03a_06c,Educacion,25660,13837,13837,25660,0,0,s03a_04 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03a_07a,Educacion,29099,10398,10398,29099,0,0,"s03a_06a en {12,13,41,42,62,63,65}",1,100,binario,0,ninguna (sin NA reales)
+s03a_07b,Educacion,30772,8725,8725,30772,0,0,s03a_07a en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03a_08,Educacion,29099,10398,10398,29099,0,0,"s03a_06a en {12,13,41,42,62,63,65}",1,100,binario,0,ninguna (sin NA reales)
+s03a_09,Educacion,25660,13837,13837,25660,0,0,s03a_04 en {1},1,100,binario,0,ninguna (sin NA reales)
+s03b_10,Educacion,25660,13837,13837,25660,0,0,s03a_04 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03b_11,Educacion,36655,2842,2842,36655,0,0,s03b_10 en {4},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03b_11e,Educacion,39460,37,14,39447,13,36,s01a_05a en {7},1,100,texto libre,92.9,revisar: posible salto no detectado o MNAR
+s03b_12,Educacion,39457,40,14,39444,13,39,s01a_05a en {7},1,100,binario,92.9,revisar: posible salto no detectado o MNAR
+s03c_13,Educacion,2780,36717,36716,2780,0,1,s02d_16 en {NA},1,100,binario,0,ninguna (sin NA reales)
+s03c_13a,Educacion,11533,27964,27964,11533,0,0,s03c_13 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03c_14,Educacion,2780,36717,36716,2780,0,1,s02d_16 en {NA},1,100,binario,0,ninguna (sin NA reales)
+s03c_15a,Educacion,2780,36717,36716,2780,0,1,s02d_16 en {NA},1,100,binario,0,ninguna (sin NA reales)
+s03c_15b,Educacion,28680,10817,10817,28680,0,0,s03c_15a en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03c_16a,Educacion,2780,36717,36716,2780,0,1,s02d_16 en {NA},1,100,binario,0,ninguna (sin NA reales)
+s03c_16b,Educacion,12646,26851,26851,12646,0,0,s03c_16a en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03c_17aa,Educacion,12646,26851,26851,12646,0,0,s03c_16a en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s03c_17ab,Educacion,24892,14605,26680,12814,12078,3,"s03c_17aa en {1,2,3,4,5,6}",1,51.5,categorico/ordinal,45.3,revisar: posible salto no detectado o MNAR
+s03c_17e,Educacion,39292,205,1,39292,0,204,s05a_02c en {400},1,100,texto libre,0,ninguna (sin NA reales)
+s04a_01,Empleo,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,binario,0,ninguna (sin NA reales)
+s04a_02,Empleo,23109,16388,16388,23109,0,0,s04a_01 en {2},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04a_02a,Empleo,39276,221,1,39276,0,220,s04c_17b en {8},1,100,binario,0,ninguna (sin NA reales)
+s04a_03,Empleo,23503,15994,15887,23503,0,107,"condact en {2,3,4,5}",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04a_04,Empleo,23610,15887,15887,23610,0,0,"condact en {2,3,4,5}",1,100,binario,0,ninguna (sin NA reales)
+s04a_05,Empleo,23610,15887,15887,23610,0,0,"condact en {2,3,4,5}",1,100,binario,0,ninguna (sin NA reales)
+s04a_06,Empleo,24724,14773,14773,24724,0,0,s04a_05 en {2},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04a_06e,Empleo,39432,65,14,39419,13,64,s01a_05a en {7},1,100,texto libre,92.9,revisar: posible salto no detectado o MNAR
+s04a_07,Empleo,24724,14773,14773,24724,0,0,s04a_05 en {2},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04a_07e,Empleo,39412,85,14,39399,13,84,s01a_05a en {7},1,100,texto libre,92.9,revisar: posible salto no detectado o MNAR
+s04a_08,Empleo,23610,15887,15887,23610,0,0,"condact en {2,3,4,5}",1,100,binario,0,ninguna (sin NA reales)
+s04b_09a_cod,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,texto libre,0,ninguna (sin NA reales)
+s04b_10a_cod,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,texto libre,0,ninguna (sin NA reales)
+s04b_11aa,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,discreto,0,ninguna (sin NA reales)
+s04b_11ab,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04b_11ba,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,discreto,0,ninguna (sin NA reales)
+s04b_11bb,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04b_12,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04b_13,Empleo,32444,7053,7054,32443,1,0,"s04b_12 en {1,2,7}",1,100,categorico/ordinal,0,imputar moda / hot-deck
+s04b_14,Empleo,20382,19115,19479,20018,364,0,condact en {1},1,98.2,discreto,1.9,imputar mediana / regresión
+s04b_15,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04b_16aa,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,discreto,0,ninguna (sin NA reales)
+s04b_16ab,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04c_17a,Empleo,32131,7366,7370,32127,4,0,"s04b_12 en {1,2,8}",1,100,discreto,0.1,imputar mediana / regresión
+s04c_17b,Empleo,32131,7366,7370,32127,4,0,"s04b_12 en {1,2,8}",1,100,categorico/ordinal,0.1,imputar moda / hot-deck
+s04c_18a,Empleo,32128,7369,7370,32127,1,0,"s04b_12 en {1,2,8}",1,100,discreto,0,imputar mediana / regresión
+s04c_18b,Empleo,32136,7361,7370,32127,9,0,"s04b_12 en {1,2,8}",1,100,discreto,0.1,imputar mediana / regresión
+s04c_19aa,Empleo,32129,7368,7370,32127,2,0,"s04b_12 en {1,2,8}",1,100,discreto,0,imputar mediana / regresión
+s04c_19ab,Empleo,38818,679,1,38818,0,678,s05a_04d en {1100},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04c_19ba,Empleo,32128,7369,7370,32127,1,0,"s04b_12 en {1,2,8}",1,100,discreto,0,imputar mediana / regresión
+s04c_19bb,Empleo,39144,353,4,39141,3,352,s05a_02c en {100},1,100,categorico/ordinal,75,revisar: posible salto no detectado o MNAR
+s04c_20a1,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_20a2,Empleo,39374,123,15,39361,13,121,s01a_07_2 en {10},1,100,categorico/ordinal,86.7,revisar: posible salto no detectado o MNAR
+s04c_20b,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_20a_1,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_20a_2,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_21a,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_21a1,Empleo,38022,1475,1475,38022,0,0,s04c_21a en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04c_21a2,Empleo,38022,1475,1475,38022,0,0,s04c_21a en {1},1,100,discreto,0,ninguna (sin NA reales)
+s04c_21b,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_21b1,Empleo,39258,239,1,39258,0,238,s05b_06aa en {1400},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04c_21b2,Empleo,39258,239,1,39258,0,238,s05b_06aa en {1400},1,100,discreto,0,ninguna (sin NA reales)
+s04c_21c,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_21c1,Empleo,38729,768,14,38716,13,767,s04e_28 en {1},1,100,categorico/ordinal,92.9,revisar: posible salto no detectado o MNAR
+s04c_21c2,Empleo,38729,768,14,38716,13,767,s04e_28 en {1},1,100,discreto,92.9,revisar: posible salto no detectado o MNAR
+s04c_21d,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_21d1,Empleo,39188,309,8,39181,7,308,s04a_03 en {4},1,100,categorico/ordinal,87.5,revisar: posible salto no detectado o MNAR
+s04c_21d2,Empleo,39188,309,8,39181,7,308,s04a_03 en {4},1,100,discreto,87.5,revisar: posible salto no detectado o MNAR
+s04c_21e,Empleo,32127,7370,7370,32127,0,0,"s04b_12 en {1,2,8}",1,100,binario,0,ninguna (sin NA reales)
+s04c_21e1,Empleo,39482,15,3,39480,2,14,caeb_os en {9},1,100,categorico/ordinal,66.7,revisar: posible salto no detectado o MNAR
+s04c_21e2,Empleo,39482,15,3,39480,2,14,caeb_os en {9},1,100,categorico/ordinal,66.7,revisar: posible salto no detectado o MNAR
+s04d_22a,Empleo,30074,9423,9428,30069,5,0,"s04b_12 en {3,4,5}",1,100,discreto,0.1,imputar mediana / regresión
+s04d_22b,Empleo,30166,9331,9428,30068,98,1,"s04b_12 en {3,4,5}",1,99.7,categorico/ordinal,1,imputar moda / hot-deck
+s04d_23aa,Empleo,30170,9327,9428,30069,101,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23ab,Empleo,31711,7786,7786,31711,0,0,s04d_23aa>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04d_23ba,Empleo,30170,9327,9428,30069,101,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23bb,Empleo,37055,2442,2442,37055,0,0,s04d_23ba>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04d_23ca,Empleo,30170,9327,9428,30069,101,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23cb,Empleo,38778,719,3,38776,2,718,s02a_01b en {2},1,100,categorico/ordinal,66.7,revisar: posible salto no detectado o MNAR
+s04d_23da,Empleo,30173,9324,9428,30069,104,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23db,Empleo,37789,1708,1707,37789,0,1,s04d_23da>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04d_23ea,Empleo,30171,9326,9428,30069,102,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23eb,Empleo,36130,3367,3365,36130,0,2,s04d_23ea>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04d_23fa,Empleo,30169,9328,9428,30069,100,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23fb,Empleo,39091,406,2,39090,1,405,s05a_02c en {500},1,100,categorico/ordinal,50,revisar: posible salto no detectado o MNAR
+s04d_23ga,Empleo,30171,9326,9428,30069,102,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23gb,Empleo,37617,1880,1879,37617,0,1,s04d_23ga>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04d_23ha,Empleo,30169,9328,9428,30069,100,0,"s04b_12 en {3,4,5}",1,99.7,discreto,1.1,imputar mediana / regresión
+s04d_23hb,Empleo,38088,1409,1409,38088,0,0,s04d_23ha>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04d_24a,Empleo,30071,9426,9428,30069,2,0,"s04b_12 en {3,4,5}",1,100,discreto,0,imputar mediana / regresión
+s04d_24b,Empleo,30169,9328,9428,30069,100,0,"s04b_12 en {3,4,5}",1,99.7,categorico/ordinal,1.1,imputar moda / hot-deck
+s04d_24ba,Empleo,37294,2203,2330,37091,203,76,"cob_op en {6} Y s04d_22a>0 en {<=0,>0}",2,99.5,binario,8.7,imputar con mice (polyreg/logreg)
+s04d_24bb,Empleo,37624,1873,2330,37123,501,44,"cob_op en {6} Y s04d_22a>0 en {<=0,>0}",2,98.7,categorico/ordinal,21.5,imputar con mice (polyreg/logreg)
+s04d_24bc,Empleo,37624,1873,2330,37123,501,44,"cob_op en {6} Y s04d_22a>0 en {<=0,>0}",2,98.7,discreto,21.5,imputar con mice (PMM)
+s04e_25,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,binario,0,ninguna (sin NA reales)
+s04e_26_cod,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,texto libre,0,ninguna (sin NA reales)
+s04e_27,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04e_28,Empleo,39360,137,2,39359,1,136,s05a_02c en {3600},1,100,categorico/ordinal,50,revisar: posible salto no detectado o MNAR
+s04e_29,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04e_30a,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,discreto,0,ninguna (sin NA reales)
+s04e_30b,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04f_31a,Empleo,39364,133,2,39363,1,132,s05a_02c en {3600},1,100,discreto,50,revisar: posible salto no detectado o MNAR
+s04f_31b,Empleo,39364,133,2,39363,1,132,s05a_02c en {3600},1,100,categorico/ordinal,50,revisar: posible salto no detectado o MNAR
+s04f_32a,Empleo,39364,133,2,39363,1,132,s05a_02c en {3600},1,100,binario,50,revisar: posible salto no detectado o MNAR
+s04f_32a1,Empleo,39494,3,46,39450,44,1,caeb_os en {15},1,99.9,categorico/ordinal,95.7,revisar: posible salto no detectado o MNAR
+s04f_32b,Empleo,39364,133,2,39363,1,132,s05a_02c en {3600},1,100,binario,50,revisar: posible salto no detectado o MNAR
+s04f_32b1,Empleo,39484,13,122,39370,114,5,"caeb_os en {8,11,17}",1,99.7,categorico/ordinal,93.4,revisar: posible salto no detectado o MNAR
+s04f_32c,Empleo,39364,133,2,39363,1,132,s05a_02c en {3600},1,100,binario,50,revisar: posible salto no detectado o MNAR
+s04f_32c1,Empleo,39493,4,6,39488,5,3,s04a_02 en {6},1,100,categorico/ordinal,83.3,revisar: posible salto no detectado o MNAR
+s04f_33a,Empleo,38614,883,1356,38141,473,0,s04e_25 en {1},1,98.8,discreto,34.9,imputar con mice (PMM)
+s04f_33b,Empleo,38700,797,27,38692,8,778,"s04c_19bb en {2,3,4,6,8} Y s04e_25 en {1}",2,100,categorico/ordinal,29.6,imputar con mice (polyreg/logreg)
+s04f_34a,Empleo,38615,882,1356,38141,474,0,s04e_25 en {1},1,98.8,discreto,35,imputar con mice (PMM)
+s04f_34b,Empleo,38700,797,27,38692,8,778,"s04c_19bb en {2,3,4,6,8} Y s04e_25 en {1}",2,100,categorico/ordinal,29.6,imputar con mice (polyreg/logreg)
+s04f_34ba,Empleo,39148,349,1,39148,0,348,s05a_02c en {400},1,100,binario,0,ninguna (sin NA reales)
+s04f_34bb,Empleo,39201,296,1,39201,0,295,s05a_02c en {400},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s04f_34bc,Empleo,39201,296,1,39201,0,295,s05a_02c en {400},1,100,discreto,0,ninguna (sin NA reales)
+s04f_35,Empleo,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,binario,0,ninguna (sin NA reales)
+s04f_36,Empleo,33953,5544,5544,33953,0,0,s04f_35 en {1},1,100,binario,0,ninguna (sin NA reales)
+s05a_01a,Ingresos,25676,13821,13821,25676,0,0,"edad en [40,98]",1,100,discreto,0,ninguna (sin NA reales)
+s05a_01b,Ingresos,34329,5168,5164,34329,0,4,"s01a_06 en {14 valores} Y s05a_01c en {0,200,250,1500}",2,100,categorico/ordinal,0,ninguna (sin NA reales)
+s05a_01c,Ingresos,9555,29942,29953,9543,12,1,pet en {1},1,99.9,discreto,0,imputar mediana / regresión
+s05a_01d,Ingresos,4140,35357,35366,4131,9,0,"edad en [7,98]",1,99.8,discreto,0,imputar mediana / regresión
+s05a_01e,Ingresos,34331,5166,5166,34331,0,0,"edad en [60,98]",1,100,binario,0,ninguna (sin NA reales)
+s05a_01e0,Ingresos,34645,4852,4959,34538,107,0,"edad en [60,98] Y ynolab>0 en {>0}",2,99.7,binario,2.2,imputar moda / hot-deck
+s05a_01f,Ingresos,34645,4852,4959,34538,107,0,"edad en [60,98] Y ynolab>0 en {>0}",2,99.7,binario,2.2,imputar moda / hot-deck
+s05a_02a,Ingresos,12627,26870,27625,11872,755,0,"edad en [17,98]",1,94,discreto,2.7,imputar mediana / regresión
+s05a_02b,Ingresos,12627,26870,27625,11872,755,0,"edad en [17,98]",1,94,discreto,2.7,imputar mediana / regresión
+s05a_02c,Ingresos,12627,26870,27625,11872,755,0,"edad en [17,98]",1,94,discreto,2.7,imputar mediana / regresión
+s05a_02ce,Ingresos,39461,36,34,39428,33,35,s03c_17ab en {7},1,99.9,texto libre,97.1,revisar: posible salto no detectado o MNAR
+s05a_03a,Ingresos,12627,26870,27625,11872,755,0,"edad en [17,98]",1,94,discreto,2.7,imputar mediana / regresión
+s05a_03b,Ingresos,12627,26870,27625,11872,755,0,"edad en [17,98]",1,94,discreto,2.7,imputar mediana / regresión
+s05a_03c,Ingresos,12627,26870,27625,11872,755,0,"edad en [17,98]",1,94,discreto,2.7,imputar mediana / regresión
+s05a_04a,Ingresos,9543,29954,29953,9543,0,1,pet en {1},1,100,discreto,0,ninguna (sin NA reales)
+s05a_04b,Ingresos,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s05a_04c,Ingresos,12624,26873,29942,9544,3080,11,s05a_01c en {13 valores},1,75.6,discreto,10.3,imputar con mice (PMM)
+s05a_04d,Ingresos,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,discreto,0,ninguna (sin NA reales)
+s05b_05aa,Ingresos,24,39473,39497,0,24,0,todos,0,0,discreto,0.1,imputar mediana / regresión
+s05b_05ab,Ingresos,38362,1135,1135,38362,0,0,s05b_05aa>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s05b_05ba,Ingresos,27,39470,39497,0,27,0,todos,0,0,discreto,0.1,imputar mediana / regresión
+s05b_05bb,Ingresos,37746,1751,1751,37746,0,0,s05b_05ba>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s05b_05ca,Ingresos,34,39463,39497,0,34,0,todos,0,0,discreto,0.1,imputar mediana / regresión
+s05b_05cb,Ingresos,37737,1760,1761,37736,1,0,s05b_05ca>0 en {>0},1,100,categorico/ordinal,0.1,imputar moda / hot-deck
+s05b_06aa,Ingresos,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s05b_06ab,Ingresos,39353,144,19,39335,18,143,s04f_33b en {6},1,100,binario,94.7,revisar: posible salto no detectado o MNAR
+s05b_06ae,Ingresos,39353,144,19,39335,18,143,s04f_33b en {6},1,100,texto libre,94.7,revisar: posible salto no detectado o MNAR
+s05b_06ba,Ingresos,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+s05b_06bb,Ingresos,39336,161,3,39334,2,160,s04a_03 en {7},1,100,categorico/ordinal,66.7,revisar: posible salto no detectado o MNAR
+s05b_06be,Ingresos,39332,165,3,39330,2,164,s04a_03 en {7},1,100,texto libre,66.7,revisar: posible salto no detectado o MNAR
+s05b_06ca,Ingresos,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+s05b_06cb,Ingresos,28077,11420,11420,28077,0,0,s05b_06ca>0 en {>0},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s05b_06ce,Ingresos,28076,11421,11420,28076,0,1,s05b_06ca>0 en {>0},1,100,texto libre,0,ninguna (sin NA reales)
+s05c_07,Ingresos,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,binario,0,ninguna (sin NA reales)
+s05c_08,Ingresos,38693,804,804,38693,0,0,s05c_07 en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+s05c_09a,Ingresos,38690,807,804,38690,0,3,s05c_07 en {1},1,100,discreto,0,ninguna (sin NA reales)
+s05c_09b,Ingresos,38741,756,17,38725,16,755,s04e_28 en {3},1,100,categorico/ordinal,94.1,revisar: posible salto no detectado o MNAR
+s05c_09e,Ingresos,39490,7,83,39411,79,3,"s05c_08 en {2,5}",1,99.8,texto libre,95.2,revisar: posible salto no detectado o MNAR
+s05c_10,Ingresos,38694,803,804,38692,2,1,s05c_07 en {1},1,100,discreto,0.2,imputar mediana / regresión
+estrato,Vivienda,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+upm,Vivienda,0,39497,39497,0,0,0,todos,0,NA,identificador,0,ninguna (sin NA reales)
+factor,Vivienda,0,39497,39497,0,0,0,todos,0,NA,continuo,0,ninguna (sin NA reales)
+cob_op,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,categorico/ordinal,0,ninguna (sin NA reales)
+caeb_op,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,discreto,0,ninguna (sin NA reales)
+caeb_os,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,discreto,0,ninguna (sin NA reales)
+pet,Empleo,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+pea,Empleo,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,binario,0,ninguna (sin NA reales)
+pei,Empleo,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,binario,0,ninguna (sin NA reales)
+condact,Empleo,4131,35366,35366,4131,0,0,"edad en [7,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+phrs,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,continuo,0,ninguna (sin NA reales)
+shrs,Empleo,38140,1357,1356,38140,0,1,s04e_25 en {1},1,100,continuo,0,ninguna (sin NA reales)
+tothrs,Empleo,20018,19479,19479,20018,0,0,condact en {1},1,100,continuo,0,ninguna (sin NA reales)
+totper,Vivienda,20,39477,39497,0,20,0,todos,0,0,categorico/ordinal,0.1,imputar moda / hot-deck
+yprilab,Empleo,22801,16696,16798,22699,102,0,"s04b_12 en {1,2,3,4,5,8}",1,99.6,continuo,0.6,imputar mediana / regresión
+yseclab,Empleo,38571,926,296,38490,81,711,"s04f_34bb en {1,2,3,4,5,6,7,8}",1,99.8,continuo,27.4,imputar con mice (PMM)
+ylab,Empleo,22788,16709,16846,22640,148,11,"s04b_12 en {1,2,3,4,5,7,8}",1,99.4,continuo,0.9,imputar mediana / regresión
+ynolab,Ingresos,0,39497,39497,0,0,0,todos,0,NA,continuo,0,ninguna (sin NA reales)
+yper,Ingresos,0,39497,39497,0,0,0,todos,0,NA,continuo,0,ninguna (sin NA reales)
+yhog,Vivienda,20,39477,39497,0,20,0,todos,0,0,continuo,0.1,imputar mediana / regresión
+yhogpc,Vivienda,20,39477,39497,0,20,0,todos,0,0,continuo,0.1,imputar mediana / regresión
+z,Vivienda,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+zext,Vivienda,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+p0,Vivienda,20,39477,39497,0,20,0,todos,0,0,binario,0.1,imputar moda / hot-deck
+p1,Vivienda,20,39477,39497,0,20,0,todos,0,0,continuo,0.1,imputar mediana / regresión
+p2,Vivienda,20,39477,39497,0,20,0,todos,0,0,continuo,0.1,imputar mediana / regresión
+pext0,Vivienda,20,39477,39497,0,20,0,todos,0,0,binario,0.1,imputar moda / hot-deck
+pext1,Vivienda,20,39477,39497,0,20,0,todos,0,0,continuo,0.1,imputar mediana / regresión
+pext2,Vivienda,20,39477,39497,0,20,0,todos,0,0,continuo,0.1,imputar mediana / regresión
+tipohogar,Vivienda,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+cobersalud,Salud,0,39497,39497,0,0,0,todos,0,NA,categorico/ordinal,0,ninguna (sin NA reales)
+hnv_ult_a,Salud,28169,11328,11328,28169,0,0,"sexo en {2} Y edad en [13,50]",2,100,binario,0,ninguna (sin NA reales)
+quienatenparto,Salud,36786,2711,6337,33160,3626,0,s02b_07 en {12 valores},1,90.1,categorico/ordinal,57.2,revisar: posible salto no detectado o MNAR
+niv_ed,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+niv_ed_g,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+cmasi,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,categorico/ordinal,0,ninguna (sin NA reales)
+educ_prev,Educacion,37200,2297,2297,37200,0,0,"s03a_02a en {71,72,77,78}",1,100,discreto,0,ninguna (sin NA reales)
+aestudio,Educacion,2143,37354,37354,2143,0,0,"edad en [4,98]",1,100,discreto,0,ninguna (sin NA reales)
+sexo,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,binario,0,ninguna (sin NA reales)
+edad,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)
+parentesco,Sociodemografico,0,39497,39497,0,0,0,todos,0,NA,discreto,0,ninguna (sin NA reales)

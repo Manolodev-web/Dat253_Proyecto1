@@ -1,0 +1,218 @@
+variable,codigo_no_aplica,celdas,tipo_estadistico,riesgo_estadistico
+s01a_05a,-1,7982,categorico/ordinal,bajo
+s01a_06,-1,23086,discreto,bajo
+s01a_07_2,-1,2732,discreto,bajo
+s01a_07_3,-1,38954,discreto,bajo
+s01a_08,-1,1470,discreto,bajo
+s01a_09npioc,-1,30397,discreto,bajo
+s01a_10,-1,7982,categorico/ordinal,bajo
+s01b_11b,NO APLICA,37899,texto libre,bajo
+s01b_11c,NO APLICA,37899,texto libre,bajo
+s01b_11d,NO APLICA,37899,texto libre,bajo
+s01b_11e,NO APLICA,39346,texto libre,bajo
+s01b_12,-1,37749,categorico/ordinal,bajo
+s01b_12e,NO APLICA,39473,texto libre,bajo
+s01b_13a,-1,37749,categorico/ordinal,bajo
+s01b_13b,-1,37749,categorico/ordinal,bajo
+s02a_01b,-1,39421,categorico/ordinal,bajo
+s02a_01e,NO APLICA,39495,texto libre,bajo
+s02a_02he,NO APLICA,39490,texto libre,bajo
+s02a_05,-1,7838,categorico/ordinal,bajo
+s02b_06,-1,28169,categorico/ordinal,bajo
+s02b_06b,-1,33041,discreto,bajo
+s02b_07,-1,33041,discreto,bajo
+s02b_08,-1,33041,discreto,bajo
+s02b_09a,-1,33041,categorico/ordinal,bajo
+s02b_09b,-1,33041,discreto,bajo
+s02b_10,-1,33160,categorico/ordinal,bajo
+s02b_10e,NO APLICA,39495,texto libre,bajo
+s02b_11,-1,33041,binario,bajo
+s02b_12a1,-1,36420,binario,bajo
+s02b_12a2,-1,39085,categorico/ordinal,bajo
+s02b_12b,-1,36420,binario,bajo
+s02b_13,-1,36420,binario,bajo
+s02b_14,-1,37420,binario,bajo
+s02b_14a,-1,39110,categorico/ordinal,bajo
+s02c_15,-1,36063,categorico/ordinal,bajo
+s02d_16,-1,36716,binario,bajo
+s02d_17,-1,37763,binario,bajo
+s02d_17a,-1,38768,categorico/ordinal,bajo
+s03a_01,-1,2143,binario,bajo
+s03a_01a,-1,2143,binario,bajo
+s03a_02a,-1,2143,discreto,bajo
+s03a_02c,-1,2143,categorico/ordinal,bajo
+s03a_03a,-1,37200,categorico/ordinal,bajo
+s03a_03c,-1,37200,categorico/ordinal,bajo
+s03a_04,-1,2143,binario,bajo
+s03a_05,-1,15980,categorico/ordinal,bajo
+s03a_05e,NO APLICA,39167,texto libre,bajo
+s03a_06a,-1,25660,discreto,bajo
+s03a_06c,-1,25660,categorico/ordinal,bajo
+s03a_07a,-1,29099,binario,bajo
+s03a_07b,-1,30772,categorico/ordinal,bajo
+s03a_08,-1,29099,binario,bajo
+s03a_09,-1,25660,binario,bajo
+s03b_10,-1,25660,categorico/ordinal,bajo
+s03b_11,-1,36655,categorico/ordinal,bajo
+s03b_11e,NO APLICA,39447,texto libre,bajo
+s03b_12,-1,39444,binario,bajo
+s03c_13,-1,2780,binario,bajo
+s03c_13a,-1,11533,categorico/ordinal,bajo
+s03c_14,-1,2780,binario,bajo
+s03c_15a,-1,2780,binario,bajo
+s03c_15b,-1,28680,categorico/ordinal,bajo
+s03c_16a,-1,2780,binario,bajo
+s03c_16b,-1,12646,categorico/ordinal,bajo
+s03c_17aa,-1,12646,categorico/ordinal,bajo
+s03c_17ab,-1,12814,categorico/ordinal,bajo
+s03c_17e,NO APLICA,39292,texto libre,bajo
+s04a_01,-1,4131,binario,bajo
+s04a_02,-1,23109,categorico/ordinal,bajo
+s04a_02a,-1,39276,binario,bajo
+s04a_03,-1,23503,categorico/ordinal,bajo
+s04a_04,-1,23610,binario,bajo
+s04a_05,-1,23610,binario,bajo
+s04a_06,-1,24724,categorico/ordinal,bajo
+s04a_06e,NO APLICA,39419,texto libre,bajo
+s04a_07,-1,24724,categorico/ordinal,bajo
+s04a_07e,NO APLICA,39399,texto libre,bajo
+s04a_08,-1,23610,binario,bajo
+s04b_09a_cod,NO APLICA,20018,texto libre,bajo
+s04b_10a_cod,NO APLICA,20018,texto libre,bajo
+s04b_11aa,-1,20018,discreto,bajo
+s04b_11ab,-1,20018,categorico/ordinal,bajo
+s04b_11ba,-1,20018,discreto,bajo
+s04b_11bb,-1,20018,categorico/ordinal,bajo
+s04b_12,-1,20018,categorico/ordinal,bajo
+s04b_13,-1,32443,categorico/ordinal,bajo
+s04b_14,-1,20018,discreto,bajo
+s04b_15,-1,20018,categorico/ordinal,bajo
+s04b_16aa,-1,20018,discreto,bajo
+s04b_16ab,-1,20018,categorico/ordinal,bajo
+s04c_17a,-1,32127,discreto,bajo
+s04c_17b,-1,32127,categorico/ordinal,bajo
+s04c_18a,-1,32127,discreto,bajo
+s04c_18b,-1,32127,discreto,bajo
+s04c_19aa,-1,32127,discreto,bajo
+s04c_19ab,-1,38818,categorico/ordinal,bajo
+s04c_19ba,-1,32127,discreto,bajo
+s04c_19bb,-1,39141,categorico/ordinal,bajo
+s04c_20a1,-1,32127,binario,bajo
+s04c_20a2,-1,39361,categorico/ordinal,bajo
+s04c_20b,-1,32127,binario,bajo
+s04c_20a_1,-1,32127,binario,bajo
+s04c_20a_2,-1,32127,binario,bajo
+s04c_21a,-1,32127,binario,bajo
+s04c_21a1,-1,38022,categorico/ordinal,bajo
+s04c_21a2,-1,38022,discreto,bajo
+s04c_21b,-1,32127,binario,bajo
+s04c_21b1,-1,39258,categorico/ordinal,bajo
+s04c_21b2,-1,39258,discreto,bajo
+s04c_21c,-1,32127,binario,bajo
+s04c_21c1,-1,38716,categorico/ordinal,bajo
+s04c_21c2,-1,38716,discreto,bajo
+s04c_21d,-1,32127,binario,bajo
+s04c_21d1,-1,39181,categorico/ordinal,bajo
+s04c_21d2,-1,39181,discreto,bajo
+s04c_21e,-1,32127,binario,bajo
+s04c_21e1,-1,39480,categorico/ordinal,bajo
+s04c_21e2,-1,39480,categorico/ordinal,bajo
+s04d_22a,-1,30069,discreto,bajo
+s04d_22b,-1,30068,categorico/ordinal,bajo
+s04d_23aa,-1,30069,discreto,bajo
+s04d_23ab,-1,31711,categorico/ordinal,bajo
+s04d_23ba,-1,30069,discreto,bajo
+s04d_23bb,-1,37055,categorico/ordinal,bajo
+s04d_23ca,-1,30069,discreto,bajo
+s04d_23cb,-1,38776,categorico/ordinal,bajo
+s04d_23da,-1,30069,discreto,bajo
+s04d_23db,-1,37789,categorico/ordinal,bajo
+s04d_23ea,-1,30069,discreto,bajo
+s04d_23eb,-1,36130,categorico/ordinal,bajo
+s04d_23fa,-1,30069,discreto,bajo
+s04d_23fb,-1,39090,categorico/ordinal,bajo
+s04d_23ga,-1,30069,discreto,bajo
+s04d_23gb,-1,37617,categorico/ordinal,bajo
+s04d_23ha,-1,30069,discreto,bajo
+s04d_23hb,-1,38088,categorico/ordinal,bajo
+s04d_24a,-1,30069,discreto,bajo
+s04d_24b,-1,30069,categorico/ordinal,bajo
+s04d_24ba,-1,37091,binario,bajo
+s04d_24bb,-1,37123,categorico/ordinal,bajo
+s04d_24bc,-1,37123,discreto,bajo
+s04e_25,-1,20018,binario,bajo
+s04e_26_cod,NO APLICA,38140,texto libre,bajo
+s04e_27,-1,38140,categorico/ordinal,bajo
+s04e_28,-1,39359,categorico/ordinal,bajo
+s04e_29,-1,38140,categorico/ordinal,bajo
+s04e_30a,-1,38140,discreto,bajo
+s04e_30b,-1,38140,categorico/ordinal,bajo
+s04f_31a,-1,39363,discreto,bajo
+s04f_31b,-1,39363,categorico/ordinal,bajo
+s04f_32a,-1,39363,binario,bajo
+s04f_32a1,-1,39450,categorico/ordinal,bajo
+s04f_32b,-1,39363,binario,bajo
+s04f_32b1,-1,39370,categorico/ordinal,bajo
+s04f_32c,-1,39363,binario,bajo
+s04f_32c1,-1,39488,categorico/ordinal,bajo
+s04f_33a,-1,38141,discreto,bajo
+s04f_33b,-1,38692,categorico/ordinal,bajo
+s04f_34a,-1,38141,discreto,bajo
+s04f_34b,-1,38692,categorico/ordinal,bajo
+s04f_34ba,-1,39148,binario,bajo
+s04f_34bb,-1,39201,categorico/ordinal,bajo
+s04f_34bc,-1,39201,discreto,bajo
+s04f_35,-1,4131,binario,bajo
+s04f_36,-1,33953,binario,bajo
+s05a_01a,-1,25676,discreto,bajo
+s05a_01b,-1,34329,categorico/ordinal,bajo
+s05a_01c,-1,9543,discreto,bajo
+s05a_01d,-1,4131,discreto,bajo
+s05a_01e,-1,34331,binario,bajo
+s05a_01e0,-1,34538,binario,bajo
+s05a_01f,-1,34538,binario,bajo
+s05a_02a,-1,11872,discreto,bajo
+s05a_02b,-1,11872,discreto,bajo
+s05a_02c,-1,11872,discreto,bajo
+s05a_02ce,NO APLICA,39428,texto libre,bajo
+s05a_03a,-1,11872,discreto,bajo
+s05a_03b,-1,11872,discreto,bajo
+s05a_03c,-1,11872,discreto,bajo
+s05a_04a,-1,9543,discreto,bajo
+s05a_04b,-1,4131,categorico/ordinal,bajo
+s05a_04c,-1,9544,discreto,bajo
+s05a_04d,-1,4131,discreto,bajo
+s05b_05ab,-1,38362,categorico/ordinal,bajo
+s05b_05bb,-1,37746,categorico/ordinal,bajo
+s05b_05cb,-1,37736,categorico/ordinal,bajo
+s05b_06ab,-1,39335,binario,bajo
+s05b_06ae,NO APLICA,39335,texto libre,bajo
+s05b_06bb,-1,39334,categorico/ordinal,bajo
+s05b_06be,NO APLICA,39330,texto libre,bajo
+s05b_06cb,-1,28077,categorico/ordinal,bajo
+s05b_06ce,NO APLICA,28076,texto libre,bajo
+s05c_07,-1,4131,binario,bajo
+s05c_08,-1,38693,categorico/ordinal,bajo
+s05c_09a,-1,38690,discreto,bajo
+s05c_09b,-1,38725,categorico/ordinal,bajo
+s05c_09e,NO APLICA,39411,texto libre,bajo
+s05c_10,-1,38692,discreto,bajo
+cob_op,-1,20018,categorico/ordinal,bajo
+caeb_op,-1,20018,discreto,bajo
+caeb_os,-1,38140,discreto,bajo
+pea,-1,4131,binario,bajo
+pei,-1,4131,binario,bajo
+condact,-1,4131,categorico/ordinal,bajo
+phrs,-1,20018,continuo,alto: excluir el código antes de promediar
+shrs,-1,38140,continuo,alto: excluir el código antes de promediar
+tothrs,-1,20018,continuo,alto: excluir el código antes de promediar
+yprilab,-1,22699,continuo,alto: excluir el código antes de promediar
+yseclab,-1,38490,continuo,alto: excluir el código antes de promediar
+ylab,-1,22640,continuo,alto: excluir el código antes de promediar
+hnv_ult_a,-1,28169,binario,bajo
+quienatenparto,-1,33160,categorico/ordinal,bajo
+niv_ed,-1,2143,categorico/ordinal,bajo
+niv_ed_g,-1,2143,categorico/ordinal,bajo
+cmasi,-1,2143,categorico/ordinal,bajo
+educ_prev,-1,37200,discreto,bajo
+aestudio,-1,2143,discreto,bajo
