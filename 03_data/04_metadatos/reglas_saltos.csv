@@ -1,0 +1,10 @@
+id_regla,seccion_encuesta,prefijo_variables,filtro_logico_r,poblacion_objetivo,universo_esperado_n,inaplicables_esperados_n,clasificacion_na
+1,Seccion 1: Demografia General,"s01a_, s01b_",TRUE (Aplica a toda la poblacion),Todos los miembros del hogar,39497,0,Sin saltos estructurales
+2,Seccion 2 Parte B: Fecundidad,s02b_,sexo == 2 & edad >= 13 & edad <= 50,Mujeres en edad fertil entre 13 y 50 anios,11328,28169,NA Estructural si hombre o fuera de 13 a 50 anios
+3,Seccion 2 Parte C: Desarrollo Infantil,s02c_,edad >= 0 & edad <= 5,Ninios y ninias de 0 a 5 anios,3434,36063,NA Estructural si edad > 5 anios
+4,Seccion 2 Parte D: Bono Juana Azurduy,s02d_,edad >= 0 & edad <= 2,Ninios y ninias menores de 2 anios,1529,37968,NA Estructural si edad > 2 anios
+5,Seccion 3 Parte A: Educacion,"s03a_, s03b_",edad >= 4,Poblacion de 4 anios o mas,37354,2143,NA Estructural si edad < 4 anios
+6,Seccion 3 Parte C: Tecnologias TIC,s03c_,edad >= 5,Poblacion de 5 anios o mas,36716,2781,NA Estructural si edad < 5 anios
+7,Seccion 4 Parte A: Empleo (PET),s04a_,pet == 1 (edad >= 14 anios),Poblacion en Edad de Trabajar (PET 14 anios o mas),29953,9544,NA Estructural si menor de 14 anios (pet == 0)
+8,Seccion 4 Partes B-F: Ocupados e Ingresos Laborales,"s04b_, s04c_, s04d_, s04e_, s04f_, tothrs, ylab",condact == 1 (Poblacion ocupada con trabajo),Poblacion ocupada que genero horas o ingresos,19479,20018,NA Estructural si desocupado o inactivo (condact != 1)
+9,Seccion 5 Parte A: Renta Dignidad,"s05a_01e, s05a_01e0, s05a_01f",edad >= 60,Adultos mayores habilitados para pension universal no contributiva,5166,34331,NA Estructural si menor de 60 anios

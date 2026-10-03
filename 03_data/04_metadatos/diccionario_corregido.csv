@@ -1,0 +1,279 @@
+id_variable,nombre_columna,tipo_dato_r,bloque_tematico,descripcion_oficial_ine
+1,folio,character,Vivienda / Hogar,Identificador unico de la vivienda o hogar
+2,area,numeric,Vivienda / Hogar,"Area geografica (1 = Urbana, 2 = Rural)"
+3,depto,numeric,Vivienda / Hogar,Departamento (1 = Chuquisaca ... 9 = Pando)
+4,nro,numeric,Demografia (Seccion 1),Numero correlativo de orden de la persona en el hogar
+5,s01a_02,numeric,Demografia (Seccion 1),"Sexo registrado original (1 = Hombre, 2 = Mujer)"
+6,s01a_03,numeric,Demografia (Seccion 1),Anios cumplidos de la persona (Edad)
+7,s01a_04a,numeric,Demografia (Seccion 1),Dia de nacimiento
+8,s01a_04b,numeric,Demografia (Seccion 1),Mes de nacimiento
+9,s01a_04c,numeric,Demografia (Seccion 1),Anio de nacimiento
+10,s01a_05,numeric,Demografia (Seccion 1),Parentesco con el o la jefe/a del hogar (1 a 14)
+11,s01a_05a,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+12,s01a_05b,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+13,s01a_05c,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+14,s01a_06,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+15,s01a_07_1,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+16,s01a_07_2,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+17,s01a_07_3,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+18,s01a_08,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+19,s01a_09,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+20,s01a_09npioc,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+21,s01a_10,numeric,Demografia (Seccion 1),Estado civil o conyugal actual
+22,s01b_11a,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+23,s01b_11b,character,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+24,s01b_11c,character,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+25,s01b_11d,character,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+26,s01b_11e,character,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+27,s01b_12,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+28,s01b_12e,character,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+29,s01b_13a,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+30,s01b_13b,numeric,Demografia (Seccion 1),Variable documentada segun catalogo oficial DDI EH 2024 INE
+31,s02a_01a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+32,s02a_01b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+33,s02a_01e,character,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+34,s02a_02a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+35,s02a_02b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+36,s02a_02c,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+37,s02a_02d,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+38,s02a_02e,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+39,s02a_02f,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+40,s02a_02g,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+41,s02a_02h,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+42,s02a_02he,character,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+43,s02a_03a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+44,s02a_03b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+45,s02a_03c,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+46,s02a_03d,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+47,s02a_03e,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+48,s02a_04a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+49,s02a_04b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+50,s02a_04c,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+51,s02a_04d,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+52,s02a_05,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+53,s02b_06,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+54,s02b_06b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+55,s02b_07,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+56,s02b_08,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+57,s02b_09a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+58,s02b_09b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+59,s02b_10,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+60,s02b_10e,character,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+61,s02b_11,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+62,s02b_12a1,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+63,s02b_12a2,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+64,s02b_12b,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+65,s02b_13,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+66,s02b_14,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+67,s02b_14a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+68,s02c_15,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+69,s02d_16,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+70,s02d_17,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+71,s02d_17a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+72,s03a_01,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+73,s03a_01a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+74,s03a_02a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+75,s03a_02c,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+76,s03a_03a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+77,s03a_03c,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+78,s03a_04,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+79,s03a_05,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+80,s03a_05e,character,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+81,s03a_06a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+82,s03a_06c,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+83,s03a_07a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+84,s03a_07b,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+85,s03a_08,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+86,s03a_09,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+87,s03b_10,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+88,s03b_11,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+89,s03b_11e,character,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+90,s03b_12,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+91,s03c_13,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+92,s03c_13a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+93,s03c_14,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+94,s03c_15a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+95,s03c_15b,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+96,s03c_16a,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+97,s03c_16b,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+98,s03c_17aa,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+99,s03c_17ab,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+100,s03c_17e,character,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+101,s04a_01,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+102,s04a_02,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+103,s04a_02a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+104,s04a_03,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+105,s04a_04,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+106,s04a_05,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+107,s04a_06,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+108,s04a_06e,character,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+109,s04a_07,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+110,s04a_07e,character,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+111,s04a_08,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+112,s04b_09a_cod,character,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+113,s04b_10a_cod,character,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+114,s04b_11aa,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+115,s04b_11ab,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+116,s04b_11ba,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+117,s04b_11bb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+118,s04b_12,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+119,s04b_13,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+120,s04b_14,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+121,s04b_15,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+122,s04b_16aa,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+123,s04b_16ab,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+124,s04c_17a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+125,s04c_17b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+126,s04c_18a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+127,s04c_18b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+128,s04c_19aa,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+129,s04c_19ab,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+130,s04c_19ba,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+131,s04c_19bb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+132,s04c_20a1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+133,s04c_20a2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+134,s04c_20b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+135,s04c_20a_1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+136,s04c_20a_2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+137,s04c_21a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+138,s04c_21a1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+139,s04c_21a2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+140,s04c_21b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+141,s04c_21b1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+142,s04c_21b2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+143,s04c_21c,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+144,s04c_21c1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+145,s04c_21c2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+146,s04c_21d,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+147,s04c_21d1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+148,s04c_21d2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+149,s04c_21e,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+150,s04c_21e1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+151,s04c_21e2,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+152,s04d_22a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+153,s04d_22b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+154,s04d_23aa,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+155,s04d_23ab,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+156,s04d_23ba,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+157,s04d_23bb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+158,s04d_23ca,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+159,s04d_23cb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+160,s04d_23da,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+161,s04d_23db,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+162,s04d_23ea,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+163,s04d_23eb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+164,s04d_23fa,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+165,s04d_23fb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+166,s04d_23ga,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+167,s04d_23gb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+168,s04d_23ha,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+169,s04d_23hb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+170,s04d_24a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+171,s04d_24b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+172,s04d_24ba,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+173,s04d_24bb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+174,s04d_24bc,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+175,s04e_25,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+176,s04e_26_cod,character,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+177,s04e_27,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+178,s04e_28,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+179,s04e_29,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+180,s04e_30a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+181,s04e_30b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+182,s04f_31a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+183,s04f_31b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+184,s04f_32a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+185,s04f_32a1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+186,s04f_32b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+187,s04f_32b1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+188,s04f_32c,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+189,s04f_32c1,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+190,s04f_33a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+191,s04f_33b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+192,s04f_34a,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+193,s04f_34b,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+194,s04f_34ba,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+195,s04f_34bb,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+196,s04f_34bc,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+197,s04f_35,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+198,s04f_36,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+199,s05a_01a,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+200,s05a_01b,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+201,s05a_01c,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+202,s05a_01d,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+203,s05a_01e,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+204,s05a_01e0,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+205,s05a_01f,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+206,s05a_02a,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+207,s05a_02b,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+208,s05a_02c,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+209,s05a_02ce,character,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+210,s05a_03a,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+211,s05a_03b,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+212,s05a_03c,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+213,s05a_04a,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+214,s05a_04b,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+215,s05a_04c,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+216,s05a_04d,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+217,s05b_05aa,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+218,s05b_05ab,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+219,s05b_05ba,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+220,s05b_05bb,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+221,s05b_05ca,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+222,s05b_05cb,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+223,s05b_06aa,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+224,s05b_06ab,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+225,s05b_06ae,character,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+226,s05b_06ba,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+227,s05b_06bb,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+228,s05b_06be,character,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+229,s05b_06ca,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+230,s05b_06cb,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+231,s05b_06ce,character,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+232,s05c_07,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+233,s05c_08,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+234,s05c_09a,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+235,s05c_09b,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+236,s05c_09e,character,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+237,s05c_10,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+238,estrato,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+239,upm,character,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+240,factor,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+241,cob_op,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+242,caeb_op,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+243,caeb_os,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+244,pet,numeric,Empleo (Seccion 4),Poblacion en Edad de Trabajar (14 anios o mas segun catalogo INE 2024)
+245,pea,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+246,pei,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+247,condact,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+248,phrs,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+249,shrs,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+250,tothrs,numeric,Empleo (Seccion 4),Total de horas trabajadas por semana en todas las ocupaciones
+251,totper,numeric,Vivienda / Hogar,Total de personas en el hogar (requiere recalculacion en bloque vivienda)
+252,yprilab,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+253,yseclab,numeric,Empleo (Seccion 4),Variable documentada segun catalogo oficial DDI EH 2024 INE
+254,ylab,numeric,Empleo (Seccion 4),Ingreso laboral individual liquido mensual (Bs/Mes)
+255,ynolab,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+256,yper,numeric,Ingresos No Laborales (Seccion 5),Variable documentada segun catalogo oficial DDI EH 2024 INE
+257,yhog,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+258,yhogpc,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+259,z,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+260,zext,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+261,p0,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+262,p1,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+263,p2,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+264,pext0,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+265,pext1,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+266,pext2,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+267,tipohogar,numeric,Vivienda / Hogar,Variable documentada segun catalogo oficial DDI EH 2024 INE
+268,cobersalud,numeric,Salud (Seccion 2),"Cobertura de seguro de salud (1 = SUS, 2 = Caja, etc.)"
+269,hnv_ult_a,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+270,quienatenparto,numeric,Salud (Seccion 2),Variable documentada segun catalogo oficial DDI EH 2024 INE
+271,niv_ed,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+272,niv_ed_g,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+273,cmasi,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+274,educ_prev,numeric,Educacion (Seccion 3),Variable documentada segun catalogo oficial DDI EH 2024 INE
+275,aestudio,numeric,Educacion (Seccion 3),Anios de estudio acumulados aprobados
+276,sexo,integer,Demografia (Seccion 1),"Variable estandarizada: 1 = Hombre, 2 = Mujer"
+277,edad,integer,Demografia (Seccion 1),Variable estandarizada: Edad en anios cumplidos (0 a 98)
+278,parentesco,integer,Demografia (Seccion 1),Variable estandarizada: Parentesco con jefe/a (1 a 14)

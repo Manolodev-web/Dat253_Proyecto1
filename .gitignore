@@ -1,3 +1,7 @@
-data/interim/
-.Rhistory
+﻿.Rhistory
+.RData
+.Ruserdata
 .Rproj.user/
+03_data/02_interim/*.rds
+.DS_Store
+Thumbs.db
