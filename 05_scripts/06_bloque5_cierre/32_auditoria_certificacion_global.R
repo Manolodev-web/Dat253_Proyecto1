@@ -115,6 +115,4 @@ log_bitacora(
 )
 
 message("================================================================================")
-message(">>> [EXITO TOTAL] ¡PIPELINE DE DAT-253 CERTIFICADO CON 0 DEFECTOS!")
-message(">>> Todos los bloques (0 a 5) y los 33 scripts (00 al 32) concluidos.")
-message("================================================================================\n")
+message(">>> [EXITO TOTAL, CON 0 DEFECTOS!")

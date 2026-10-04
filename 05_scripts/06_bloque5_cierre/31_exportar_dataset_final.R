@@ -1,11 +1,12 @@
 # ==============================================================================
 # Script: 31_exportar_dataset_final.R
 # Bloque: 05 - Ingresos No Laborales y Consolidacion Final
-# Descripcion: Exportacion del dataset maestro final (persona_limpio.rds y .csv)
-#              y generacion del diccionario de datos final tabular.
+# Descripcion: Exportacion del dataset maestro final en formatos duales (.rds,
+#              .csv abierto y .csv codificado numerico) y catalogo de metadatos.
 # Entrada: 03_data/02_interim/persona_30.rds
 # Salida:  03_data/03_processed/persona_limpio.rds
 #          03_data/03_processed/persona_limpio.csv
+#          03_data/03_processed/persona_limpio_codificado.csv
 #          03_data/04_metadatos/diccionario_final.csv
 # ==============================================================================
 
@@ -43,54 +44,60 @@ df <- readRDS(ruta_interim_30)
 n_filas <- nrow(df)
 n_cols  <- ncol(df)
 
-# 3. Exportar datasets definitivos a 03_data/03_processed/
-if (!dir.exists("03_data/03_processed")) dir.create("03_data/03_processed", recursive = TRUE)
+dir_salida_datos <- file.path("03_data", "03_processed")
+if (!dir.exists(dir_salida_datos)) dir.create(dir_salida_datos, recursive = TRUE)
 
-ruta_rds_final <- file.path("03_data", "03_processed", "persona_limpio.rds")
+# 3. Exportacion 1: Dataset binario optimizado (.rds)
+ruta_rds_final <- file.path(dir_salida_datos, "persona_limpio.rds")
 saveRDS(df, ruta_rds_final)
-message(paste0(">>> [EXPORTACION OK] Dataset binario guardado en: ", ruta_rds_final))
+message(paste0(">>> [1/3] Dataset RDS binario guardado en: ", ruta_rds_final))
 
-ruta_csv_final <- file.path("03_data", "03_processed", "persona_limpio.csv")
+# 4. Exportacion 2: Dataset plano abierto (.csv)
+ruta_csv_final <- file.path(dir_salida_datos, "persona_limpio.csv")
 readr::write_csv(df, ruta_csv_final)
-message(paste0(">>> [EXPORTACION OK] Dataset CSV abierto guardado en: ", ruta_csv_final))
+message(paste0(">>> [2/3] Dataset CSV estandar guardado en: ", ruta_csv_final))
 
-# 4. Generacion automatica del diccionario de datos final
-nombres_cols <- names(df)
-tipos_cols   <- sapply(df, function(x) class(x)[1])
-nas_cols     <- sapply(df, function(x) sum(is.na(x)))
-unicos_cols  <- sapply(df, function(x) length(unique(x)))
+# 5. Exportacion 3: Dataset codificado numerico para econometria (.csv)
+df_codificado <- df
+for (col in names(df_codificado)) {
+  if (is.factor(df_codificado[[col]])) {
+    df_codificado[[col]] <- as.integer(df_codificado[[col]])
+  }
+}
+ruta_csv_cod <- file.path(dir_salida_datos, "persona_limpio_codificado.csv")
+readr::write_csv(df_codificado, ruta_csv_cod)
+message(paste0(">>> [3/3] Dataset CSV codificado numerico guardado en: ", ruta_csv_cod))
 
-etiquetas_cols <- sapply(df, function(x) {
-  lbl <- attr(x, "label")
-  if (is.null(lbl) || length(lbl) == 0) return("Sin etiqueta")
-  return(as.character(lbl))
-})
-
+# 6. Generacion automatica del diccionario de metadatos final
 diccionario_final <- data.frame(
   columna_id = 1:n_cols,
-  nombre_atributo = nombres_cols,
-  tipo_dato_r = tipos_cols,
-  etiqueta_semantica = etiquetas_cols,
-  total_valores_na = nas_cols,
-  valores_distintos = unicos_cols,
+  nombre_atributo = names(df),
+  tipo_dato_r = sapply(df, function(x) class(x)[1]),
+  etiqueta_semantica = sapply(df, function(x) {
+    lbl <- attr(x, "label")
+    if (is.null(lbl) || length(lbl) == 0) return("Sin etiqueta")
+    return(as.character(lbl))
+  }),
+  total_valores_na = sapply(df, function(x) sum(is.na(x))),
+  valores_distintos = sapply(df, function(x) length(unique(x))),
   stringsAsFactors = FALSE
 )
 
 ruta_dicc_final <- file.path("03_data", "04_metadatos", "diccionario_final.csv")
 readr::write_csv(diccionario_final, ruta_dicc_final)
-message(paste0(">>> [EXPORTACION OK] Diccionario final de datos guardado en: ", ruta_dicc_final))
+message(paste0(">>> [OK] Diccionario final de datos guardado en: ", ruta_dicc_final))
 
-# 5. Registro en Bitacora Oficial
+# 7. Registro en Bitacora Oficial
 log_bitacora(
   id_paso = 31,
   atributo = "DATASET_MAESTRO_FINAL",
   tipo_problema = "Exportacion Definitiva y Metadatos",
   metodologia_fase = "Fase 5: Evaluacion y Despliegue de Datos",
-  accion_realizada = paste0("Generacion de persona_limpio.rds, persona_limpio.csv (", 
-                            n_filas, "x", n_cols, ") y exportacion de diccionario_final.csv"),
-  criterio_justificacion = "Preservar version binaria optimizada con metadatos para analisis en R y CSV plano para interoperabilidad web y docencia",
+  accion_realizada = paste0("Generacion de persona_limpio.rds, persona_limpio.csv y persona_limpio_codificado.csv (", 
+                            n_filas, "x", n_cols, ") con diccionario_final.csv"),
+  criterio_justificacion = "Proveer version nativa RDS con etiquetas, version tabular estandar y version codificada numerica para modelos econometricos",
   filas_afectadas = n_filas,
-  impacto_dataset = paste0("Exportados 2 formatos maestros y 1 catalogo formal de ", n_cols, " columnas"),
+  impacto_dataset = paste0("Exportados 3 formatos maestros y 1 catalogo formal de ", n_cols, " columnas"),
   codigo_script = "05_scripts/06_bloque5_consolidacion/31_exportar_dataset_final.R"
 )
 

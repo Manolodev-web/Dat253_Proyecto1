@@ -16,7 +16,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raíz del proyecto fijada en: ", getwd())
+message(">>> Raíz del proyecto fijada en: ", getwd())
 
 # 2. Cargar funciones auxiliares
 source("02_R_helpers/funciones.R")
@@ -28,7 +28,7 @@ if (!file.exists(ruta_raw)) {
   stop("ERROR CRÍTICO: No se encuentra persona.csv en: ", ruta_raw)
 }
 
-message(">>> Leyendo dataset persona.csv (inspeccionando todas las filas para evitar pérdidas)...")
+message(">>> Leyendo dataset persona.csv ")
 # guess_max = 50000 asegura que no se pierdan textos en columnas con muchos NAs iniciales
 df_raw <- readr::read_csv(ruta_raw, guess_max = 50000, show_col_types = FALSE, progress = FALSE)
 
@@ -100,4 +100,4 @@ log_bitacora(
   codigo_script = "05_scripts/01_bloque0_global/00_auditoria_inicial.R"
 )
 
-message(">>> [FIN] Script 00_auditoria_inicial.R completado exitosamente sin pérdidas de parseo.\n")
+message(">>> Script 00_auditoria_inicial.R completado exitosamente.\n")

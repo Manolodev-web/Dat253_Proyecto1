@@ -18,7 +18,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -27,7 +27,7 @@ suppressPackageStartupMessages({
   library(dplyr)
 })
 
-message(">>> [INICIO] Ejecutando 16_salud_validacion.R...")
+message(">>>Ejecutando 16_salud_validacion.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_15 <- file.path("03_data", "02_interim", "persona_15.rds")
@@ -84,5 +84,5 @@ log_bitacora(
   codigo_script = "05_scripts/03_bloque2_salud/16_salud_validacion.R"
 )
 
-message(">>> [FIN] Script 16_salud_validacion.R completado exitosamente.")
-message(">>> ¡BLOQUE 2 (SALUD) FINALIZADO AL 100%!\n")
+message(">>>Script 16_salud_validacion.R completado exitosamente.")
+message(">>> ¡BLOQUE 2 (SALUD) FINALIZADO!\n")

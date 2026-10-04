@@ -2,7 +2,7 @@
 # Script: 02_tipos_unarias_etiquetas.R
 # Bloque: 00 - Global
 # Descripcion: Coercion de tipos primitivos, identificacion de variables unarias
-#              y asignacion de etiquetas de metadatos (Hmisc) en ASCII limpio.
+#              y asignacion de etiquetas de metadatos
 # Entrada: 03_data/02_interim/persona_01.rds
 # Salida:  03_data/02_interim/persona_02.rds
 #          06_images/02_tipos_datos.png
@@ -31,7 +31,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 02_tipos_unarias_etiquetas.R...")
+message(">>>Ejecutando 02_tipos_unarias_etiquetas.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_01 <- file.path("03_data", "02_interim", "persona_01.rds")
@@ -130,4 +130,4 @@ log_bitacora(
   codigo_script = "05_scripts/01_bloque0_global/02_tipos_unarias_etiquetas.R"
 )
 
-message(">>> [FIN] Script 02_tipos_unarias_etiquetas.R completado exitosamente.\n")
+message(">>>Script 02_tipos_unarias_etiquetas.R completado.\n")

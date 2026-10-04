@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -34,7 +34,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 24_emp_imputacion_mice.R...")
+message(">>>Ejecutando 24_emp_imputacion_mice.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_23 <- file.path("03_data", "02_interim", "persona_23.rds")
@@ -92,7 +92,7 @@ if (n_a_imputar > 0) {
   df$ylab[idx_a_imputar] <- round(valores_imputados, 2)
   df$ylab_imputado[idx_a_imputar] <- 1L
   
-  message(">>> [OK] Imputacion MICE completada exitosamente.")
+  message(">>>Imputacion MICE completada exitosamente.")
 }
 
 # Inactivos y desocupados quedan en 0 Bs
@@ -149,4 +149,4 @@ log_bitacora(
   codigo_script = "05_scripts/05_bloque4_empleo/24_emp_imputacion_mice.R"
 )
 
-message(">>> [FIN] Script 24_emp_imputacion_mice.R completado exitosamente.\n")
+message(">>>Script 24_emp_imputacion_mice.R completado.\n")

@@ -19,7 +19,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -29,7 +29,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 14_salud_saltos_fecundidad.R...")
+message(">>>Ejecutando 14_salud_saltos_fecundidad.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_13 <- file.path("03_data", "02_interim", "persona_13.rds")
@@ -98,4 +98,4 @@ log_bitacora(
   codigo_script = "05_scripts/03_bloque2_salud/14_salud_saltos_fecundidad.R"
 )
 
-message(">>> [FIN] Script 14_salud_saltos_fecundidad.R completado exitosamente.\n")
+message(">>>Script 14_salud_saltos_fecundidad.R completado.\n")

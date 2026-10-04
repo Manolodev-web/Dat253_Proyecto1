@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -31,7 +31,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 23_emp_horas_trabajadas.R...")
+message(">>>Ejecutando 23_emp_horas_trabajadas.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_22 <- file.path("03_data", "02_interim", "persona_22.rds")
@@ -86,7 +86,7 @@ message(paste0(">>> Registros con horas semanales > ", limite_max_horas, " hrs: 
 
 if (horas_extremas > 0) {
   df$tothrs[df$tothrs > limite_max_horas] <- limite_max_horas
-  message(">>> [CORRECCION] Valores superiores a 112 hrs acotados al limite fisiologico censal.")
+  message(">>>Valores superiores a 112 hrs acotados al limite fisiologico censal.")
 }
 
 # Reasignar etiquetas limpias
@@ -132,4 +132,4 @@ log_bitacora(
   codigo_script = "05_scripts/05_bloque4_empleo/23_emp_horas_trabajadas.R"
 )
 
-message(">>> [FIN] Script 23_emp_horas_trabajadas.R completado exitosamente.\n")
+message(">>>Script 23_emp_horas_trabajadas.R completado.\n")

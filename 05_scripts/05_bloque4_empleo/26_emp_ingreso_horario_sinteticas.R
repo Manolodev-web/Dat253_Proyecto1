@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>  Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -31,7 +31,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 26_emp_ingreso_horario_sinteticas.R...")
+message(">>> Ejecutando 26_emp_ingreso_horario_sinteticas.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_25 <- file.path("03_data", "02_interim", "persona_25.rds")
@@ -132,4 +132,4 @@ log_bitacora(
   codigo_script = "05_scripts/05_bloque4_empleo/26_emp_ingreso_horario_sinteticas.R"
 )
 
-message(">>> [FIN] Script 26_emp_ingreso_horario_sinteticas.R completado exitosamente.\n")
+message(">>> Script 26_emp_ingreso_horario_sinteticas.R completado.\n")

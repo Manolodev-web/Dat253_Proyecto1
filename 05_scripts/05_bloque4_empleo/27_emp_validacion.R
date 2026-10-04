@@ -27,7 +27,7 @@ suppressPackageStartupMessages({
   library(dplyr)
 })
 
-message(">>> [INICIO] Ejecutando 27_emp_validacion.R...")
+message(">>> Ejecutando 27_emp_validacion.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_26 <- file.path("03_data", "02_interim", "persona_26.rds")
@@ -86,5 +86,5 @@ log_bitacora(
   codigo_script = "05_scripts/05_bloque4_empleo/27_emp_validacion.R"
 )
 
-message(">>> [FIN] Script 27_emp_validacion.R completado exitosamente.")
-message(">>> ¡BLOQUE 4 (EMPLEO E INGRESOS) FINALIZADO AL 100%!\n")
+message(">>> Script 27_emp_validacion.R completado exitosamente.")
+message(">>> ¡BLOQUE 4 (EMPLEO E INGRESOS) FINALIZADO!\n")

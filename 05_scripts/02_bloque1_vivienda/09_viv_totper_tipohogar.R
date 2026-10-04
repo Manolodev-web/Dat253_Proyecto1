@@ -19,7 +19,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>> Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -29,7 +29,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 09_viv_totper_tipohogar.R...")
+message(">>>Ejecutando 09_viv_totper_tipohogar.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_08 <- file.path("03_data", "02_interim", "persona_08.rds")
@@ -94,4 +94,4 @@ log_bitacora(
   codigo_script = "05_scripts/02_bloque1_vivienda/09_viv_totper_tipohogar.R"
 )
 
-message(">>> [FIN] Script 09_viv_totper_tipohogar.R completado exitosamente.\n")
+message(">>>Script 09_viv_totper_tipohogar.R completado.\n")

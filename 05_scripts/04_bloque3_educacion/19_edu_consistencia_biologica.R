@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -31,7 +31,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 19_edu_consistencia_biologica.R...")
+message(">>> Ejecutando 19_edu_consistencia_biologica.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_18 <- file.path("03_data", "02_interim", "persona_18.rds")
@@ -58,7 +58,7 @@ if (inconsistencias_biologicas > 0) {
 # 4. Validacion de no negatividad y cota superior absoluta
 stopifnot(all(df$aestudio >= 0))
 stopifnot(all(df$aestudio <= pmax(0, df$edad - 4)))
-message(">>> [VALIDACION OK] La cota biologica aestudio <= (edad - 4) se cumple al 100%.")
+message(">>> La cota biologica aestudio <= (edad - 4) se cumple al 100%.")
 
 # 5. Generacion de visualizacion: Dispersion edad vs aestudio y cota biologica
 # Submuestra aleatoria para visualizacion limpia sin sobretrazado
@@ -103,4 +103,4 @@ log_bitacora(
   codigo_script = "05_scripts/04_bloque3_educacion/19_edu_consistencia_biologica.R"
 )
 
-message(">>> [FIN] Script 19_edu_consistencia_biologica.R completado exitosamente.\n")
+message(">>>Script 19_edu_consistencia_biologica.R completado.\n")

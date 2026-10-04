@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -31,7 +31,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 22_emp_diagnostico.R...")
+message(">>>Ejecutando 22_emp_diagnostico.R...")
 
 # 2. Cargar estado anterior (Cierre Bloque 3)
 ruta_interim_21 <- file.path("03_data", "02_interim", "persona_21.rds")
@@ -131,4 +131,4 @@ log_bitacora(
   codigo_script = "05_scripts/05_bloque4_empleo/22_emp_diagnostico.R"
 )
 
-message(">>> [FIN] Script 22_emp_diagnostico.R completado exitosamente.\n")
+message(">>> Script 22_emp_diagnostico.R completado.\n")

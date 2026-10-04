@@ -28,7 +28,7 @@ suppressPackageStartupMessages({
   library(dplyr)
 })
 
-message(">>> [INICIO] Ejecutando 04_duplicados_integridad.R...")
+message(">>>Ejecutando 04_duplicados_integridad.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_03 <- file.path("03_data", "02_interim", "persona_03.rds")
@@ -51,7 +51,7 @@ message(paste0(">>> Duplicados en llave primaria compuesta (folio, nro): ", dup_
 if (dup_llaves > 0) {
   stop("ERROR CRITICO: Se detectaron registros duplicados en la llave (folio, nro).")
 } else {
-  message(">>> [VALIDACION OK] La llave primaria (folio, nro) garantiza unicidad estricta.")
+  message(">>>La llave primaria (folio, nro) garantiza unicidad estricta.")
 }
 
 # 5. Auditoria de Jefatura de Hogar (Regla de negocio: exactamente 1 jefe por folio)
@@ -75,7 +75,7 @@ message(paste0(">>> Hogares con multiples jefes (total_jefes > 1): ", hogares_mu
 # Validacion de consistencia estructural
 stopifnot(hogares_sin_jefe == 0)
 stopifnot(hogares_multi_jefe == 0)
-message(">>> [VALIDACION OK] Cada hogar tiene exacta y univocamente un solo jefe/a.")
+message(">>> Cada hogar tiene exacta y univocamente un solo jefe/a.")
 
 # 6. Auditoria de correlatividad del numero de persona (nro)
 correlatividad_correcta <- df %>%
@@ -104,4 +104,4 @@ log_bitacora(
   codigo_script = "05_scripts/01_bloque0_global/04_duplicados_integridad.R"
 )
 
-message(">>> [FIN] Script 04_duplicados_integridad.R completado exitosamente.\n")
+message(">>>Script 04_duplicados_integridad.R completado.\n")

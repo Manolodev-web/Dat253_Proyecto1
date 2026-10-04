@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -30,7 +30,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-message(">>> [INICIO] Ejecutando 17_edu_diagnostico.R...")
+message(">>>Ejecutando 17_edu_diagnostico.R...")
 
 # 2. Cargar estado anterior (Cierre Bloque 2)
 ruta_interim_16 <- file.path("03_data", "02_interim", "persona_16.rds")
@@ -132,4 +132,4 @@ log_bitacora(
   codigo_script = "05_scripts/04_bloque3_educacion/17_edu_diagnostico.R"
 )
 
-message(">>> [FIN] Script 17_edu_diagnostico.R completado exitosamente.\n")
+message(">>>Script 17_edu_diagnostico.R completado .\n")

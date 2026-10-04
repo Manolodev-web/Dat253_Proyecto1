@@ -20,7 +20,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -31,7 +31,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-message(">>> [INICIO] Ejecutando 06_clasificar_NA.R...")
+message(">>>Ejecutando 06_clasificar_NA.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_05 <- file.path("03_data", "02_interim", "persona_05.rds")
@@ -147,4 +147,4 @@ log_bitacora(
   codigo_script = "05_scripts/01_bloque0_global/06_clasificar_NA.R"
 )
 
-message(">>> [FIN] Script 06_clasificar_NA.R completado exitosamente.\n")
+message(">>>Script 06_clasificar_NA.R completado.\n")

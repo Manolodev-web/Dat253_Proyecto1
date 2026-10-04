@@ -3,7 +3,6 @@
 # Bloque: 00 - Global
 # Descripcion: Reconciliacion formal de variables sociodemograficas (Seccion 1)
 #              con auto-ubicacion de ruta y exportacion de diccionario_corregido.csv
-#              (Texto estandarizado en ASCII sin tildes ni enies).
 # Entrada: 03_data/02_interim/persona_00.rds
 # Salida:  03_data/04_metadatos/diccionario_corregido.csv
 #          03_data/02_interim/persona_01.rds
@@ -21,12 +20,12 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>Raiz del proyecto fijada en: ", getwd())
 
 # 2. Cargar helpers
 source("02_R_helpers/funciones.R")
 
-message(">>> [INICIO] Ejecutando 01_diccionario_corregido.R...")
+message(">>>Ejecutando 01_diccionario_corregido.R...")
 
 # 3. Cargar el estado anterior (persona_00.rds)
 ruta_interim_00 <- file.path("03_data", "02_interim", "persona_00.rds")
@@ -129,4 +128,4 @@ log_bitacora(
   codigo_script = "05_scripts/01_bloque0_global/01_diccionario_corregido.R"
 )
 
-message(">>> [FIN] Script 01_diccionario_corregido.R completado exitosamente.\n")
+message(">>>Script 01_diccionario_corregido.R.\n")

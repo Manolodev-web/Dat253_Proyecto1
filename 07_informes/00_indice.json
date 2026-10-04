@@ -1,0 +1,238 @@
+{
+  "proyecto": "DAT-253 - Limpieza y Auditoria de la Encuesta de Hogares 2024",
+  "total_informes": 33,
+  "fecha_actualizacion": "2026-10-03",
+  "informes": [
+    {
+      "id": "00",
+      "archivo": "00_perfilado_inicial.md",
+      "titulo": "Perfilado Inicial y Diagnostico de Nulos",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "01",
+      "archivo": "01_reconciliacion_metadatos.md",
+      "titulo": "Reconciliacion de Metadatos Sociodemograficos",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "02",
+      "archivo": "02_coercion_tipos.md",
+      "titulo": "Coercion Estricta de Tipos Primitivos",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "03",
+      "archivo": "03_normalizacion_texto.md",
+      "titulo": "Normalizacion Lexica y Estandarizacion ASCII",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "04",
+      "archivo": "04_duplicados_integridad.md",
+      "titulo": "Integridad Relacional y Jefatura Unica de Hogar",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "05",
+      "archivo": "05_reglas_de_salto.md",
+      "titulo": "Formalizacion de Reglas de Salto Censal",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "06",
+      "archivo": "06_clasificar_NA.md",
+      "titulo": "Clasificacion Taxonomica de Valores Faltantes",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "07",
+      "archivo": "07_recodificar_NA_estructurales.md",
+      "titulo": "Ceros Analiticos y Banderas de Linaje",
+      "bloque": "Bloque 0: Global",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "08",
+      "archivo": "08_viv_diagnostico.md",
+      "titulo": "Diagnostico del Aplanamiento Estructural en Tamanio de Hogar",
+      "bloque": "Bloque 1: Vivienda",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "09",
+      "archivo": "09_viv_totper_tipohogar.md",
+      "titulo": "Reconstruccion de totper y Consistencia de Tipologia de Hogar",
+      "bloque": "Bloque 1: Vivienda",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "10",
+      "archivo": "10_viv_ingreso_hogar_pobreza.md",
+      "titulo": "Sincronizacion Contable de Ingreso Per Capita y Axiomas FGT",
+      "bloque": "Bloque 1: Vivienda",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "11",
+      "archivo": "11_viv_validacion.md",
+      "titulo": "Certificacion Estricta Fail-Fast del Bloque de Vivienda",
+      "bloque": "Bloque 1: Vivienda",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "12",
+      "archivo": "12_salud_diagnostico.md",
+      "titulo": "Diagnostico de Cobertura Medica, Gastos y Fecundidad",
+      "bloque": "Bloque 2: Salud",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "13",
+      "archivo": "13_salud_nulos.md",
+      "titulo": "Tratamiento de Nulos en Cobertura de Salud y Discapacidad",
+      "bloque": "Bloque 2: Salud",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "14",
+      "archivo": "14_salud_saltos_fecundidad.md",
+      "titulo": "Consistencia Biologica y Saltos de Fecundidad e Infancia",
+      "bloque": "Bloque 2: Salud",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "15",
+      "archivo": "15_salud_gastos_bolsillo.md",
+      "titulo": "Saneamiento de Gastos de Bolsillo y Gasto Total en Salud",
+      "bloque": "Bloque 2: Salud",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "16",
+      "archivo": "16_salud_validacion.md",
+      "titulo": "Certificacion Estricta Fail-Fast del Bloque de Salud",
+      "bloque": "Bloque 2: Salud",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "17",
+      "archivo": "17_edu_diagnostico.md",
+      "titulo": "Diagnostico del Modulo Educativo y Anios de Estudio",
+      "bloque": "Bloque 3: Educacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "18",
+      "archivo": "18_edu_nulos_alfabetismo.md",
+      "titulo": "Tratamiento de Omisiones en Escolaridad y Bandera de Linaje",
+      "bloque": "Bloque 3: Educacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "19",
+      "archivo": "19_edu_consistencia_biologica.md",
+      "titulo": "Validacion y Acotamiento de la Restriccion Biologica Escolar",
+      "bloque": "Bloque 3: Educacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "20",
+      "archivo": "20_edu_tics_sinteticas.md",
+      "titulo": "Modulo de Tecnologias TIC e Indicador de Clima Educativo",
+      "bloque": "Bloque 3: Educacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "21",
+      "archivo": "21_edu_validacion.md",
+      "titulo": "Certificacion Estricta Fail-Fast del Bloque de Educacion",
+      "bloque": "Bloque 3: Educacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "22",
+      "archivo": "22_emp_diagnostico.md",
+      "titulo": "Diagnostico del Mercado Laboral y Tasas Macroeconomicas",
+      "bloque": "Bloque 4: Empleo",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "23",
+      "archivo": "23_emp_horas_trabajadas.md",
+      "titulo": "Saneamiento de Horas Trabajadas y Acotamiento Fisiologico",
+      "bloque": "Bloque 4: Empleo",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "24",
+      "archivo": "24_emp_imputacion_mice.md",
+      "titulo": "Imputacion Multivariada de Ingresos Laborales con MICE/PMM",
+      "bloque": "Bloque 4: Empleo",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "25",
+      "archivo": "25_emp_salario_minimo_outliers.md",
+      "titulo": "Auditoria Frente al Salario Minimo Nacional y Precariedad",
+      "bloque": "Bloque 4: Empleo",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "26",
+      "archivo": "26_emp_ingreso_horario_sinteticas.md",
+      "titulo": "Estimacion del Ingreso Horario e Indicadores de Subempleo",
+      "bloque": "Bloque 4: Empleo",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "27",
+      "archivo": "27_emp_validacion.md",
+      "titulo": "Certificacion Estricta Fail-Fast del Bloque de Empleo",
+      "bloque": "Bloque 4: Empleo",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "28",
+      "archivo": "28_nolab_diagnostico.md",
+      "titulo": "Diagnostico de Ingresos No Laborales y Renta Dignidad",
+      "bloque": "Bloque 5: Consolidacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "29",
+      "archivo": "29_nolab_renta_dignidad_saltos.md",
+      "titulo": "Consistencia de Saltos en Renta Dignidad y Ceros Analiticos",
+      "bloque": "Bloque 5: Consolidacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "30",
+      "archivo": "30_ingreso_total_consolidacion.md",
+      "titulo": "Reconciliacion Contable de Ingresos y Recalibracion de Pobreza",
+      "bloque": "Bloque 5: Consolidacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "31",
+      "archivo": "31_exportar_dataset_final.md",
+      "titulo": "Exportacion del Dataset Maestro y Diccionario de Datos",
+      "bloque": "Bloque 5: Consolidacion",
+      "estado": "CERTIFICADO"
+    },
+    {
+      "id": "32",
+      "archivo": "32_auditoria_certificacion_global.md",
+      "titulo": "Auditoria Integral y Certificacion Global del Pipeline",
+      "bloque": "Bloque 5: Consolidacion",
+      "estado": "CERTIFICADO"
+    }
+  ]
+}

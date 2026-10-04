@@ -29,7 +29,7 @@ suppressPackageStartupMessages({
   library(stringr)
 })
 
-message(">>> [INICIO] Ejecutando 03_normalizar_texto.R...")
+message(">>>Ejecutando 03_normalizar_texto.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_02 <- file.path("03_data", "02_interim", "persona_02.rds")
@@ -107,4 +107,4 @@ log_bitacora(
   codigo_script = "05_scripts/01_bloque0_global/03_normalizar_texto.R"
 )
 
-message(">>> [FIN] Script 03_normalizar_texto.R completado exitosamente.\n")
+message(">>>Script 03_normalizar_texto.R completado.\n")

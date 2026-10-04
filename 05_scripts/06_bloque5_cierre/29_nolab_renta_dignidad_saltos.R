@@ -19,7 +19,7 @@ while (!dir.exists(file.path(dir_raiz, "03_data")) && dirname(dir_raiz) != dir_r
   dir_raiz <- dirname(dir_raiz)
 }
 setwd(dir_raiz)
-message(">>> [OK] Raiz del proyecto fijada en: ", getwd())
+message(">>>  Raiz del proyecto fijada en: ", getwd())
 
 source("02_R_helpers/funciones.R")
 
@@ -29,7 +29,7 @@ suppressPackageStartupMessages({
   library(Hmisc)
 })
 
-message(">>> [INICIO] Ejecutando 29_nolab_renta_dignidad_saltos.R...")
+message(">>>  Ejecutando 29_nolab_renta_dignidad_saltos.R...")
 
 # 2. Cargar estado anterior
 ruta_interim_28 <- file.path("03_data", "02_interim", "persona_28.rds")
@@ -100,4 +100,4 @@ log_bitacora(
   codigo_script = "05_scripts/06_bloque5_consolidacion/29_nolab_renta_dignidad_saltos.R"
 )
 
-message(">>> [FIN] Script 29_nolab_renta_dignidad_saltos.R completado exitosamente.\n")
+message(">>> Script 29_nolab_renta_dignidad_saltos.R .\n")

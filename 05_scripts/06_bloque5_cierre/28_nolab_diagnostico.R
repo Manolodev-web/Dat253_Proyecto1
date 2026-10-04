@@ -30,7 +30,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-message(">>> [INICIO] Ejecutando 28_nolab_diagnostico.R...")
+message(">>> Ejecutando 28_nolab_diagnostico.R...")
 
 # 2. Cargar estado anterior (Cierre Bloque 4)
 ruta_interim_27 <- file.path("03_data", "02_interim", "persona_27.rds")
@@ -121,4 +121,4 @@ log_bitacora(
   codigo_script = "05_scripts/06_bloque5_consolidacion/28_nolab_diagnostico.R"
 )
 
-message(">>> [FIN] Script 28_nolab_diagnostico.R completado exitosamente.\n")
+message(">>> Script 28_nolab_diagnostico.R completado.\n")
